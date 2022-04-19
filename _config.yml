@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "ko-KR"
-title: Hangil's Blog
-description: 개발 공부 일지
+title: ROAD TO GOOD DEVELOPER
+description: 좋은 개발자 되기.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://hangillee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "hangillee/hangillee.github.io"
