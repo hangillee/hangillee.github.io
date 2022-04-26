@@ -2,7 +2,7 @@
 layout: default
 title: 기본 알고리즘
 nav_order: 1
-has_children: false
+parent: ProblemSolving
 permalink: docs/problemsolving/ps1
 ---
 
