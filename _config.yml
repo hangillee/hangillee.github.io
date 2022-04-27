@@ -110,6 +110,7 @@ plugins:
   - jekyll-seo-tag
 
 kramdown:
+  syntax_highlighter: rogue
   syntax_highlighter_opts:
     block:
       line_numbers: true
