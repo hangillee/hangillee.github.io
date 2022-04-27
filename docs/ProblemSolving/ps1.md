@@ -22,7 +22,7 @@ permalink: docs/problemsolving/ps1
    
 **세 값의 최댓값 구하기**
 
-```Java
+```java
 import java.util.Scanner;
 
 public class getMaxValue {
