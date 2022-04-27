@@ -24,7 +24,7 @@ permalink: docs/problemsolving/ps1
 
 **세 값의 최댓값 구하기**
 
-```java
+{% highlight Java linenos %}
 import java.util.Scanner;
 
 public class getMaxValue {
@@ -55,7 +55,7 @@ public class getMaxValue {
         numScan.close();
     }
 }
-```
+{% endhighlight %}
 ---
 위 프로그램은 **Java**로 작성되었습니다. **반복문**을 통해 사용자로부터 받아온 3개의 변수를 **배열 자료구조**에 저장했고, **조건문**으로 원하는 결과를 도출하기 위한 프로그램을 작성했습니다. 입력된 3개의 변수의 순서와 상관 없이 항상 최댓값을 출력하므로 이 프로그램은 알고리즘이라 할 수 있습니다. 이 짧은 프로그램에서 우리는 알고리즘을 작성할 때 자주 사용하게 되는 여러 요소들을 확인해볼 수 있습니다.   
    
