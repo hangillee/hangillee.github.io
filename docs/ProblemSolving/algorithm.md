@@ -3,10 +3,12 @@ layout: default
 title: 알고리즘이란?
 nav_order: 1
 parent: ProblemSolving
-permalink: docs/problemsolving/ps1
+permalink: docs/problemsolving/algorithm
 ---
 
 # 알고리즘이란?   
+
+{: .no_toc }
 
 "알고리즘"은 다음과 같이 정의할 수 있습니다.
 
