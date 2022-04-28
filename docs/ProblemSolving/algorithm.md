@@ -7,8 +7,13 @@ permalink: docs/problemsolving/algorithm
 ---
 
 # 알고리즘이란?   
+{: .no_toc }
 
-{: .no_toc .text-delta}
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 "알고리즘"은 다음과 같이 정의할 수 있습니다.
 
