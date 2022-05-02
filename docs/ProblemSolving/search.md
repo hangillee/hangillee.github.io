@@ -6,8 +6,7 @@ parent: ProblemSolving
 permalink: docs/problemsolving/search
 ---
 
-# 탐색 알고리즘   
-
+# 탐색 알고리즘
 {: .no_toc }
 
 {: .no_toc .text-delta }
