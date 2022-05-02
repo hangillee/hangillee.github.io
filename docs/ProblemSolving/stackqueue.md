@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 알고리즘이란?
+title: 스택과 큐
 nav_order: 3
 parent: ProblemSolving
 permalink: docs/problemsolving/stackqueue
