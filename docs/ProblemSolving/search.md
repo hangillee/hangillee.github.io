@@ -10,6 +10,11 @@ permalink: docs/problemsolving/search
 
 {: .no_toc }
 
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 **"탐색 알고리즘"(Search Algorithm)**은 데이터 집합에서 원하는 값을 가진 요소를 찾아내는 알고리즘입니다. 주로 **key**라고 불리는 특정 항목을 통해 값을 찾아내며, key는 대부분 데이터의 일부입니다. 즉, 데이터의 일부를 key로 지정해 원하는 값을 찾아내는 것입니다. key는 찾고자 하는 값, 범위 혹은 유사한 항목 등이 될 수 있습니다. 탐색 알고리즘에는 크게 3가지가 있습니다.
 
 >1. 선형 탐색 (Linear Search)
