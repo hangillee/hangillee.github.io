@@ -14,6 +14,8 @@ permalink: docs/problemsolving/algorithm
 1. TOC
 {:toc}
 
+---
+
 "알고리즘"은 다음과 같이 정의할 수 있습니다.
 
 > 문제를 해결하기 위한 것으로, 명확하게 정의되고 순서가 있는 유한 개의 규칙으로 이루어진 집합

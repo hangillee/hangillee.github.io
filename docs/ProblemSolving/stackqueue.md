@@ -14,6 +14,8 @@ permalink: docs/problemsolving/stackqueue
 1. TOC
 {:toc}
 
+---
+
 ## 스택 (Stack)
 **스택(Stack)**은 데이터를 일시적으로 저장하기 위해 사용하는 자료구조입니다. 스택의 데이터 입력과 출력의 순서는 **LIFO(Last In First Out)**, 후입선출입니다. 가장 먼저 들어간 것이 가장 나중에 나오는 형태로, 바구니에 물건을 담을 때를 생각하면 됩니다.
 
