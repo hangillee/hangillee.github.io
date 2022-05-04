@@ -20,7 +20,7 @@ permalink: docs/problemsolving/stackqueue
 **스택(Stack)**은 데이터를 일시적으로 저장하기 위해 사용하는 자료구조입니다. 스택의 데이터 입력과 출력의 순서는 **LIFO(Last In First Out)**, 후입선출입니다. 가장 먼저 들어간 것이 가장 나중에 나오는 형태로, 바구니에 물건을 담을 때를 생각하면 됩니다.
 
 <p align="center">
-  <img src="/docs/images/Stack.png" alt="스택의 구조"/>
+  <img src="/docs/images/Stack.png" alt="스택의 구조"/><br/>
   스택의 구조
 </p>
 
@@ -55,7 +55,7 @@ Deque<Integer> stack = new ArrayDeque<Integer>();
 **큐(Queue)**는 스택과 마찬가지로 데이터를 일시적으로 저장하기 위해 사용하는 자료구조입니다. 큐의 데이터 입력과 출력의 순서는 **FIFO(First in First Out)**, 선입선출입니다. 가장 먼저 들어간 것이 가장 먼저 나오는 형태로, 줄을 서거나 도로 교통을 생각하면 됩니다.
 
 <p align="center">
-  <img src="/docs/images/Queue.png" alt="큐의 구조"/>
+  <img src="/docs/images/Queue.png" alt="큐의 구조"/><br/>
   큐의 구조
 </p>
 
