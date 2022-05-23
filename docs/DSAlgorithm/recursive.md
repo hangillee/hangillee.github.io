@@ -2,8 +2,8 @@
 layout: default
 title: 재귀 알고리즘
 nav_order: 4
-parent: ProblemSolving
-permalink: docs/problemsolving/recursive
+parent: dsalgorithm
+permalink: docs/dsalgorithm/recursive
 ---
 
 # 재귀 알고리즘   
