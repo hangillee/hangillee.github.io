@@ -2,7 +2,7 @@
 layout: default
 title: 알고리즘이란?
 nav_order: 1
-parent: dsalgorithm
+parent: DS & Algorithm
 permalink: docs/dsalgorithm/algorithm
 ---
 

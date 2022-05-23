@@ -2,7 +2,7 @@
 layout: default
 title: 탐색 알고리즘
 nav_order: 1
-parent: dsalgorithm
+parent: DS & Algorithm
 permalink: docs/dsalgorithm/search
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Java란 무엇인가?
 nav_order: 1
 parent: Java
-permalink: docs/langsyntax/java01
+permalink: docs/langsyntax/java/01
 ---
 
 # Java란 무엇인가? 

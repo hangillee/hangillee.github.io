@@ -2,7 +2,7 @@
 layout: default
 title: 재귀 알고리즘
 nav_order: 4
-parent: dsalgorithm
+parent: DS & Algorithm
 permalink: docs/dsalgorithm/recursive
 ---
 
