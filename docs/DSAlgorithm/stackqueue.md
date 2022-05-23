@@ -2,7 +2,7 @@
 layout: default
 title: 스택과 큐
 nav_order: 3
-parent: dsalgorithm
+parent: DS & Algorithm
 permalink: docs/dsalgorithm/stackqueue
 ---
 
