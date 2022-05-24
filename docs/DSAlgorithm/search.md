@@ -9,10 +9,11 @@ permalink: docs/dsalgorithm/search
 # 탐색 알고리즘
 {: .no_toc }
 
+## 목차
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+    {:toc}
 
 ---
 
