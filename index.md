@@ -12,8 +12,7 @@ permalink: /
 제가 해왔던 개발 관련 공부들을 정리한 블로그입니다.   
 언어 문법, 기술 요약, 알고리즘 풀이 등, 다양한 분야들을 기록했습니다.
 
-[GitHub] [mygithub]
+[GitHub][mygithub]
 [mygithub]: https://github.com/hangillee "hangillee"
 
 ---
-
