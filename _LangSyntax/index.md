@@ -1,7 +1,9 @@
 ---
 layout: default
 title: LangSyntax
+nav_order: 3
 has_children: true
+permalink: docs/langsyntax
 ---
 
 # LangSyntax
