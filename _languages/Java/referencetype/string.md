@@ -1,7 +1,6 @@
 ---
 layout: default
 title: String
-nav_order: 3
 parent: 참조 자료형
 grand_parent: Java
 permalink: docs/languages/java/04/String

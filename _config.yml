@@ -175,11 +175,19 @@ collections:
   languages:
     permalink: "/:collection/:path:output_ext"
     output: true
+  techstack:
+    permalink: "/:collection/:path:output_ext"
+    output: true
 
 just_the_docs:
   collections:
     languages:
       name: Languages
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: true
+    techstack:
+      name: TechStack
       nav_exclude: false
       nav_fold: true
       search_exclude: true
