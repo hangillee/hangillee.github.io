@@ -8,30 +8,18 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Theme
-remote_theme: pdmosses/just-the-docs@combination
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-locale: "ko-KR"
-title: CodeRoad
-description: 좋은 개발자 되기!
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://hangillee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "hangillee/hangillee.github.io"
-permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
-]
+title: Just the Docs
+description: A Jekyll theme for documentation
+baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
+url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Regression tests
-# By default, the pages in /docs/tests are excluded when the ste is built.
-# To include them, comment-out the relevant line above.
-# Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
-# include: ["docs/tests/"]
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
@@ -68,11 +56,11 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "My GitHub":
-    - "//github.com/hangillee"
+  "Just the Docs on GitHub":
+    - "//github.com/just-the-docs/just-the-docs"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
+aux_links_new_tab: false
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
@@ -94,15 +82,70 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_link: false # show or hide edit this page link
+gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/hangillee/hangillee.githut.io" # the github URL for your repo
+gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: light
+color_scheme: nil
+
+# Callouts
+# 
+# The title of a callout is optional. It is rendered in uppercase.
+# 
+# Each kind of callout has a color, used for the callout bar, the title, and the background.
+# Predefined colors: grey-lt, grey-dk, purple, blue, green, yellow, red.
+# If you use another color, you should define its levels (000, 100, 200, 300) in _sass/custom/custom.scss.
+#
+# The default is for callout backgrounds to have a lower color level than the bars and titles.
+# The value of `callouts_level` is either `quiet` or `loud`:
+# `loud` increases the saturation and lightness of the backgrounds.
+# The default for `callouts_level` is `quiet` when using the `light` or custom color schemes,
+# and `loud` when using the `dark` color scheme.
+# 
+# Examples (not provided by default):
+# 
+# callouts:
+#   admonition:
+#     # title:
+#     color: grey-lt
+#   attention:
+#     title: Attention
+#     color: purple
+#   caution:
+#     title: Caution
+#     color: yellow
+#   custom:
+#     title: Custom
+#     color: pink
+#     opacity: 0.3
+#   danger:
+#     title: Danger
+#     color: red
+#   error:
+#     title: Error
+#     color: red
+#   highlight:
+#     color: yellow
+#     opacity: 0.5
+#   hint:
+#     title: Hint
+#     color: grey-dk
+#   important:
+#     title: Important
+#     color: green
+#   note:
+#     title: Note
+#     color: blue
+#   tip:
+#     title: Tip
+#     color: grey-dk
+#   warning:
+#     title: Warning
+#     color: red
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
@@ -113,10 +156,9 @@ plugins:
   - jekyll-seo-tag
 
 kramdown:
-  syntax_highlighter: rogue
   syntax_highlighter_opts:
     block:
-      line_numbers: true
+      line_numbers: false
 
 compress_html:
   clippings: all
@@ -125,18 +167,5 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
-  ignore:
-    envs: all
-
-collections:
-  languages:
-    permalink: "/:collection/:path:output_ext"
-    output: true
-
-just_the_docs:
-  collections:
-    languages:
-      name: Languages
-      nav_exclude: false
-      nav_fold: true
-      search_exclude: true
+  # ignore:
+  #   envs: all
