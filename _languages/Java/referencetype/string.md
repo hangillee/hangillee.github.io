@@ -2,9 +2,9 @@
 layout: default
 title: String
 nav_order: 3
-parent: Java
-grand_parent: LangSyntax
-permalink: docs/langsyntax/java/04/String
+parent: 참조 자료형
+grand_parent: Java
+permalink: docs/languages/java/04/String
 ---
 
 # String
