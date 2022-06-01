@@ -1,12 +1,12 @@
 ---
 layout: default
-title: LangSyntax
+title: Languages
 nav_order: 3
 has_children: true
-permalink: docs/langsyntax
+permalink: docs/languages
 ---
 
-# LangSyntax
+# Languages
 ## 프로그래밍 언어 문법
 
 공부한 프로그래밍 언어들의 문법을 정리하는 공간입니다.
