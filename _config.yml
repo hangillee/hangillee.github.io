@@ -124,3 +124,16 @@ compress_html:
   profile: false
   ignore:
     envs: all
+
+collections:
+  langsyntax:
+    permalink: "/:collection/:path:output_ext"
+    output: true
+
+just_the_docs:
+  collections:
+    langsyntax:
+      name: LangSyntax
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: true
