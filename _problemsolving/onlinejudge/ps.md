@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Onlien Judge
+title: Online Judge
 nav_order: 1
 has_children: true
 permalink: docs/problemsolving/onlinejudge
