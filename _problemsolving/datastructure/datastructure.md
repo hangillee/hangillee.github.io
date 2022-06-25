@@ -4,7 +4,7 @@ title: 자료구조
 nav_order: 1
 parent: Problem Solving
 has_children: true
-permalink: docs/ps/datastructure
+permalink: docs/problemsolving/datastructure
 ---
 
 # 자료구조

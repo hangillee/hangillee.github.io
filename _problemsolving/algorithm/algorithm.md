@@ -4,7 +4,7 @@ title: 알고리즘
 nav_order: 1
 parent: Problem Solving
 has_children: true
-permalink: docs/ps/algorithm
+permalink: docs/problemsolving/algorithm
 ---
 
 # 알고리즘이란?   

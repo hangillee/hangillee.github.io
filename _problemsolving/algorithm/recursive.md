@@ -3,7 +3,7 @@ layout: default
 title: 재귀 알고리즘
 nav_order: 1
 parent: 알고리즘
-permalink: docs/ps/algorithm/recursive
+permalink: docs/problemsolving/algorithm/recursive
 ---
 
 # 재귀 알고리즘   

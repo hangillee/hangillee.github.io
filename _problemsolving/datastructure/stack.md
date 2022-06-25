@@ -3,7 +3,7 @@ layout: default
 title: 스택
 nav_order: 1
 parent: 자료구조
-permalink: docs/ps/datastructure/stack
+permalink: docs/problemsolving/datastructure/stack
 ---
 
 # 스택 

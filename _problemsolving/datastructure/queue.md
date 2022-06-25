@@ -3,7 +3,7 @@ layout: default
 title: 큐
 nav_order: 2
 parent: 자료구조
-permalink: docs/ps/datastructure/queue
+permalink: docs/problemsolving/datastructure/queue
 ---
 
 # 큐   

@@ -3,7 +3,7 @@ layout: default
 title: Problem Solving
 nav_order: 1
 has_children: true
-permalink: docs/ps
+permalink: docs/problemsolving
 ---
 
 # Problem Solving
