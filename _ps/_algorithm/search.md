@@ -2,7 +2,9 @@
 layout: default
 title: 탐색 알고리즘
 nav_order: 2
-permalink: docs/dsalgorithm/search
+parent: 알고리즘
+has_children: true
+permalink: docs/ps/algorithm/search
 ---
 
 # 탐색 알고리즘

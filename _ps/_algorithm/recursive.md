@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 재귀 알고리즘
-nav_order: 4
-permalink: docs/dsalgorithm/recursive
+nav_order: 1
+parent: 알고리즘
+permalink: docs/ps/algorithm/recursive
 ---
 
 # 재귀 알고리즘   
