@@ -194,8 +194,8 @@ just_the_docs:
       nav_exclude: false
       nav_fold: true
       search_exclude: true
-    dsalgorithm:
-      name: DS & Algorithm
+    problemsolving:
+      name: Problem Solving
       nav_exclude: false
       nav_fold: true
       search_exclude: true
