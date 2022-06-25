@@ -178,7 +178,7 @@ collections:
   techstack:
     permalink: "/:collection/:path:output_ext"
     output: true
-  dsalgorithm:
+  problemsolving:
     permalink: "/:collection/:path:output_ext"
     output: true
 
