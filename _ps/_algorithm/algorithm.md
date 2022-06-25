@@ -1,8 +1,10 @@
 ---
 layout: default
-title: 알고리즘이란?
+title: 알고리즘
 nav_order: 1
-permalink: docs/dsalgorithm/algorithm
+parent: Problem Solving
+has_children: true
+permalink: docs/ps/algorithm
 ---
 
 # 알고리즘이란?   
