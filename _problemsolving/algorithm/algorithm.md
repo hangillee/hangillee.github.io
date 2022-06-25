@@ -1,8 +1,7 @@
 ---
 layout: default
 title: 알고리즘
-nav_order: 1
-parent: Problem Solving
+nav_order: 2
 has_children: true
 permalink: docs/problemsolving/algorithm
 ---
