@@ -30,19 +30,43 @@ permalink: docs/problemsolving/algorithm/complexity
     <tr>
         <th>이름</th>
         <th>표기</th>
-        <th>시간 (1000 기준)</th>
+        <th>시간 (1,000회 기준)</th>
         <th>예시</th>
     </tr>
     <tr>
         <td>상수 시간</td>
         <td><em>O(1)</em></td>
         <td>1</td>
-        <td>정렬된 숫자 배열에서 중위값 찾기, 짝수 홀수 판정하기</td>
+        <td>정렬된 숫자 배열에서 중위값 찾기</td>
     </tr>
     <tr>
         <td>로그 시간</td>
         <td><em>O(log n)</em></td>
         <td>9.97</td>
         <td>이분 탐색</td>
+    </tr>
+    <tr>
+        <td>선형 시간</td>
+        <td><em>O(n)</em></td>
+        <td>1,000</td>
+        <td>선형 탐색</td>
+    </tr>
+    <tr>
+        <td>선형 로그 시간</td>
+        <td><em>O(n log n)</em></td>
+        <td>9,966</td>
+        <td>선형 탐색</td>
+    </tr>
+    <tr>
+        <td>선형 로그 시간</td>
+        <td>$O(n log n)$</td>
+        <td>9,966</td>
+        <td>선형 탐색</td>
+    </tr>
+    <tr>
+        <td>이차 시간</td>
+        <td><em>O(n<sup>2</sup>)</em></td>
+        <td>1,000,000</td>
+        <td>선형 탐색</td>
     </tr>
 </table>
