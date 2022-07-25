@@ -72,13 +72,13 @@ permalink: docs/problemsolving/algorithm/complexity
     <tr>
         <td>지수 시간</td>
         <td><em>O(2<sup>n</sup>)</em></td>
-        <td>약 1.071 × 10<sup>301</sup></td>
+        <td>약 1.07 × 10<sup>301</sup></td>
         <td>피보나치 수열</td>
     </tr>
     <tr>
         <td>팩토리얼 시간</td>
         <td><em>O(2<sup>n</sup>)</em></td>
-        <td>약 1.071 × 10<sup>301</sup></td>
+        <td>약 4.02 × 10<sup>2567</sup></td>
         <td>완전 탐색을 통한 외판원 문제</td>
     </tr>
 </table>
