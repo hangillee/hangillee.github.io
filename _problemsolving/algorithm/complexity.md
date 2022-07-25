@@ -55,18 +55,30 @@ permalink: docs/problemsolving/algorithm/complexity
         <td>선형 로그 시간</td>
         <td><em>O(n log n)</em></td>
         <td>9,966</td>
-        <td>선형 탐색</td>
-    </tr>
-    <tr>
-        <td>선형 로그 시간</td>
-        <td>$O(n log n)$</td>
-        <td>9,966</td>
-        <td>선형 탐색</td>
+        <td>비교 정렬</td>
     </tr>
     <tr>
         <td>이차 시간</td>
         <td><em>O(n<sup>2</sup>)</em></td>
         <td>1,000,000</td>
-        <td>선형 탐색</td>
+        <td>버블 정렬, 삽입 정렬</td>
+    </tr>
+    <tr>
+        <td>삼차 시간</td>
+        <td><em>O(n<sup>3</sup>)</em></td>
+        <td>1,000,000,000</td>
+        <td>일반적인 행렬의 곱셈</td>
+    </tr>
+    <tr>
+        <td>지수 시간</td>
+        <td><em>O(2<sup>n</sup>)</em></td>
+        <td>약 1.071 × 10<sup>301</sup></td>
+        <td>피보나치 수열</td>
+    </tr>
+    <tr>
+        <td>팩토리얼 시간</td>
+        <td><em>O(2<sup>n</sup>)</em></td>
+        <td>약 1.071 × 10<sup>301</sup></td>
+        <td>완전 탐색을 통한 외판원 문제</td>
     </tr>
 </table>
