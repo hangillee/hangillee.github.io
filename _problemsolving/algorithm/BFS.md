@@ -3,6 +3,7 @@ layout: default
 title: 너비 우선 탐색 (BFS)
 nav_order: 1
 parent: 탐색 알고리즘
+grand_parent: 알고리즘
 permalink: docs/problemsolving/algorithm/search/BFS
 ---
 
