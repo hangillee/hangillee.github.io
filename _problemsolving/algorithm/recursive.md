@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 재귀 알고리즘
-nav_order: 1
+nav_order: 2
 parent: 알고리즘
 permalink: docs/problemsolving/algorithm/recursive
 ---
