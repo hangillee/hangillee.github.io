@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 탐색 알고리즘
-nav_order: 2
+nav_order: 3
 parent: 알고리즘
 has_children: true
 permalink: docs/problemsolving/algorithm/search
